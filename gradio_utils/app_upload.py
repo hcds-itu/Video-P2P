@@ -7,9 +7,9 @@ import pathlib
 import gradio as gr
 import slugify
 
-from constants import MODEL_LIBRARY_ORG_NAME, UploadTarget
-from uploader import Uploader
-from utils import find_exp_dirs
+from gradio_utils.constants import MODEL_LIBRARY_ORG_NAME, UploadTarget
+from gradio_utils.uploader import Uploader
+from gradio_utils.utils import find_exp_dirs
 
 
 class ModelUploader(Uploader):

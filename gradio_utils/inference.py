@@ -13,8 +13,8 @@ from diffusers.utils.import_utils import is_xformers_available
 from einops import rearrange
 from huggingface_hub import ModelCard
 
-from ..tuneavideo.models.unet import UNet3DConditionModel
-from ..tuneavideo.pipelines.pipeline_tuneavideo import TuneAVideoPipeline
+from tuneavideo.models.unet import UNet3DConditionModel
+from tuneavideo.pipelines.pipeline_tuneavideo import TuneAVideoPipeline
 
 
 class InferencePipeline:

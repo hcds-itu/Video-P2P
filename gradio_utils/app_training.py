@@ -6,9 +6,9 @@ import os
 
 import gradio as gr
 
-from constants import MODEL_LIBRARY_ORG_NAME, SAMPLE_MODEL_REPO, UploadTarget
-from inference import InferencePipeline
-from trainer import Trainer
+from gradio_utils.constants import MODEL_LIBRARY_ORG_NAME, SAMPLE_MODEL_REPO, UploadTarget
+from gradio_utils.inference import InferencePipeline
+from gradio_utils.trainer import Trainer
 
 
 def create_training_demo(trainer: Trainer,

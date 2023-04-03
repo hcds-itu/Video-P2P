@@ -15,8 +15,8 @@ import huggingface_hub
 from huggingface_hub import HfApi
 from omegaconf import OmegaConf
 
-from app_upload import ModelUploader
-from utils import save_model_card
+from gradio_utils.app_upload import ModelUploader
+from gradio_utils.utils import save_model_card
 
 URL_TO_JOIN_MODEL_LIBRARY_ORG = 'https://huggingface.co/organizations/video-p2p-library/share/pZwQaStCpdmMCGLURsMhMkEpvIlsdMdnkk'
 ORIGINAL_SPACE_ID = 'video-p2p-library/Video-P2P-Demo'
